@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import HW from './Hello_World';
+import ST from './state';
 
 
-
-ReactDOM.render(<HW />,document.getElementById('root'));
+ReactDOM.render(<ST />,document.getElementById('root'));
